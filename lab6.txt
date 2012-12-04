@@ -2,6 +2,6 @@ grep -w [[:alnum:]] plik.txt
 // lub grep -w . plik.txt
 grep -w ^[0123456789] pl*
 grep -E ^.{8}r * 
-grep -c bash /etc/passwd
+grep -c .bash$ /etc/passwd
 grep [IVXLCDM] plik.txt
 
